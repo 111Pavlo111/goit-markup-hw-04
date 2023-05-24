@@ -62,8 +62,8 @@ button {
     justify-content: center;
 }
 
-.card-item {
-    width: 360px;
+.card-link{
+    display: block;
 }
 
 
@@ -77,6 +77,10 @@ button {
 
 .about-section-item {
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .about-container {
@@ -87,6 +91,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 8px;
 
 
     width: 264px;
@@ -116,6 +121,8 @@ button {
 
 .header-section {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .container {
@@ -447,7 +454,7 @@ button {
 }
 
 .team-social-svg {
-    fill: #fff;
+    fill: #f4f4fd;
 }
 
 .team-social-link:hover,
@@ -475,7 +482,7 @@ button {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     color: var(--title-txt-color);
 
     text-align: center;
@@ -526,6 +533,7 @@ button {
 
 .footer-container {
     display: flex;
+    align-items: baseline;
 
 }
 
